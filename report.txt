@@ -1,0 +1,6 @@
+Info: Processing component "U1:/654F32A5:".
+Info: Processing component "U2:/654F6512:".
+Info: Processing component "U3:/654E0153:".
+Error: Cannot add U1 (no footprint assigned).
+Error: Cannot add U2 (no footprint assigned).
+Error: Cannot add U3 (no footprint assigned).

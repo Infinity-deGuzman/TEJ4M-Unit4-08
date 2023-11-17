@@ -1,0 +1,270 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6700 3800 6700 3400
+Wire Wire Line
+	6100 4000 6100 3800
+Wire Wire Line
+	6100 3450 6100 3650
+$Comp
+L 74xGxx:74LVC2G02 U3
+U 1 1 654E0153
+P 6400 3400
+F 0 "U3" H 6375 3667 50  0000 C CNN
+F 1 "74LVC2G02" H 6375 3576 50  0000 C CNN
+F 2 "" H 6400 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6400 3400 50  0001 C CNN
+	1    6400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC2G02 U3
+U 2 1 654E0159
+P 6400 4050
+F 0 "U3" H 6375 4317 50  0000 C CNN
+F 1 "74LVC2G02" H 6375 4226 50  0000 C CNN
+F 2 "" H 6400 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6400 4050 50  0001 C CNN
+	2    6400 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3650 6750 3650
+Wire Wire Line
+	6100 3800 6700 3800
+$Comp
+L 74xx:74LS04 U1
+U 1 1 654F32A5
+P 4650 3300
+F 0 "U1" H 4650 3617 50  0000 C CNN
+F 1 "74LS04" H 4650 3526 50  0000 C CNN
+F 2 "" H 4650 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4650 3300 50  0001 C CNN
+	1    4650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AUC2G08 U2
+U 2 1 654F6512
+P 5650 3350
+F 0 "U2" H 5625 3617 50  0000 C CNN
+F 1 "74AUC2G08" H 5625 3526 50  0000 C CNN
+F 2 "" H 5650 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5650 3350 50  0001 C CNN
+	2    5650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AUC2G08 U2
+U 1 1 654F8AFB
+P 5600 4100
+F 0 "U2" H 5575 4367 50  0000 C CNN
+F 1 "74AUC2G08" H 5575 4276 50  0000 C CNN
+F 2 "" H 5600 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5600 4100 50  0001 C CNN
+	1    5600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3350 5900 3350
+Wire Wire Line
+	6100 4100 5850 4100
+Wire Wire Line
+	5300 4050 5150 4050
+Wire Wire Line
+	5150 3400 5350 3400
+Wire Wire Line
+	4350 3300 4350 4150
+Wire Wire Line
+	6950 4050 6750 4050
+Wire Wire Line
+	6750 3650 6750 4050
+Connection ~ 6750 4050
+Wire Wire Line
+	6750 4050 6650 4050
+$Comp
+L Device:LED D1
+U 1 1 65566956
+P 7000 3400
+F 0 "D1" H 6993 3145 50  0000 C CNN
+F 1 "LED" H 6993 3236 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7000 3400 50  0001 C CNN
+F 3 "~" H 7000 3400 50  0001 C CNN
+	1    7000 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 65567B8A
+P 7100 4050
+F 0 "D2" H 7093 3795 50  0000 C CNN
+F 1 "LED" H 7093 3886 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7100 4050 50  0001 C CNN
+F 3 "~" H 7100 4050 50  0001 C CNN
+	1    7100 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 3400 6700 3400
+Connection ~ 6700 3400
+Wire Wire Line
+	6700 3400 6850 3400
+$Comp
+L Device:R_US R3
+U 1 1 6556EDC9
+P 7450 3400
+F 0 "R3" V 7245 3400 50  0000 C CNN
+F 1 "R_US" V 7336 3400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7490 3390 50  0001 C CNN
+F 3 "~" H 7450 3400 50  0001 C CNN
+	1    7450 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 65570F10
+P 7550 4050
+F 0 "R4" V 7345 4050 50  0000 C CNN
+F 1 "R_US" V 7436 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7590 4040 50  0001 C CNN
+F 3 "~" H 7550 4050 50  0001 C CNN
+	1    7550 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 4050 7400 4050
+Wire Wire Line
+	7150 3400 7300 3400
+$Comp
+L Connector:XLR3_Switched J1
+U 2 1 6557293B
+P 3400 4150
+F 0 "J1" H 3400 4492 50  0000 C CNN
+F 1 "XLR3_Switched" H 3400 4401 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3400 4250 50  0001 C CNN
+F 3 " ~" H 3400 4250 50  0001 C CNN
+	2    3400 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:XLR3_Switched J2
+U 2 1 6557ADE7
+P 4150 3750
+F 0 "J2" H 4150 4092 50  0000 C CNN
+F 1 "XLR3_Switched" H 4150 4001 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4150 3850 50  0001 C CNN
+F 3 " ~" H 4150 3850 50  0001 C CNN
+	2    4150 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3300 5350 3300
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 65587301
+P 2650 3650
+F 0 "J3" H 2542 3835 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 2542 3744 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2650 3650 50  0001 C CNN
+F 3 "~" H 2650 3650 50  0001 C CNN
+	1    2650 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4250 3000 4250
+Wire Wire Line
+	2900 4250 2900 3750
+Wire Wire Line
+	3100 4050 2950 4050
+Wire Wire Line
+	2950 4050 2950 3650
+Wire Wire Line
+	7700 4050 7950 4050
+Connection ~ 3000 4250
+Wire Wire Line
+	3000 4250 2900 4250
+Wire Wire Line
+	7600 3400 7950 3400
+Wire Wire Line
+	7950 3400 7950 4050
+Connection ~ 7950 4050
+Wire Wire Line
+	7950 4050 7950 4450
+Wire Wire Line
+	3000 4450 3000 4250
+$Comp
+L Device:R_US R1
+U 1 1 655AF919
+P 4000 4150
+F 0 "R1" V 3795 4150 50  0000 C CNN
+F 1 "R_US" V 3886 4150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4040 4140 50  0001 C CNN
+F 3 "~" H 4000 4150 50  0001 C CNN
+	1    4000 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 3400 5150 3750
+Wire Wire Line
+	2850 3650 2950 3650
+Wire Wire Line
+	2850 3750 2900 3750
+Connection ~ 2900 3750
+Wire Wire Line
+	2900 3750 3850 3750
+Connection ~ 2950 3650
+Wire Wire Line
+	2950 3650 3850 3650
+Wire Wire Line
+	3850 3750 3850 3850
+$Comp
+L Device:R_US R2
+U 1 1 655D93BB
+P 4800 3750
+F 0 "R2" V 4595 3750 50  0000 C CNN
+F 1 "R_US" V 4686 3750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4840 3740 50  0001 C CNN
+F 3 "~" H 4800 3750 50  0001 C CNN
+	1    4800 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 3750 4650 3750
+Wire Wire Line
+	4950 3750 5150 3750
+Connection ~ 5150 3750
+Wire Wire Line
+	5150 3750 5150 4050
+Wire Wire Line
+	3000 4450 7950 4450
+Wire Wire Line
+	3700 4150 3850 4150
+Wire Wire Line
+	4150 4150 4350 4150
+Connection ~ 4350 4150
+Wire Wire Line
+	4350 4150 5300 4150
+Text Notes 3900 4300 0    50   ~ 0
+220 Ω
+Text Notes 4650 3900 0    50   ~ 0
+220 Ω
+Text Notes 7350 3550 0    50   ~ 0
+220 Ω
+Text Notes 7450 4200 0    50   ~ 0
+220 Ω
+Text Notes 3550 3250 0    50   ~ 0
+Infinity de Guzman\nTEJ4M\nUnit 1-04\nD-latch
+$EndSCHEMATC
